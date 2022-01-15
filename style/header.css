@@ -179,11 +179,16 @@ body {
     }
 
     .header {
-        margin-top: 250px;
+        margin-top: 100px;
     }
 }
 
 @media (max-width: 1040px) {
+
+    .nav {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
     .nav__menu.active {
         z-index: 888;
@@ -268,9 +273,6 @@ body {
         align-items: center;
     }
 
-    .logo {
-        margin-bottom: 20px;
-    }
 }
 
 @media (max-width: 720px) {
